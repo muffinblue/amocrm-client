@@ -1,0 +1,39 @@
+{
+  "name": "bluemuffin/amocrm-client",
+  "type": "library",
+  "description": "A PHP wrapper for amoCRM API",
+  "keywords": ["amocrm", "api"],
+  "homepage": "https://github.com/muffinblue/amocrm-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Blue Muffin",
+      "homepage": "https://github.com/muffinblue"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "guzzlehttp/guzzle": "^6.3",
+    "phpunit/phpunit": "^7.5"
+  },
+  "suggest": {
+    "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmoCrm\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AmoCrm\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.23"
+    }
+  }
+}

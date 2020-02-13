@@ -1,0 +1,30 @@
+# Intentionally untracked files
+*~
+*.log
+log.txt
+*.tmp.*
+*.zip
+
+# Dev env
+/.git
+/.svn
+/.idea
+.env
+/vendor
+/node_modules
+Homestead.json
+Homestead.yaml
+
+# Work env
+$RECYCLE.BIN/
+desktop.ini
+*.lnk
+.DS_Store
+__MACOSX
+.localized
+Thumbs.db
+Icon
+.cache
+
+# Keep gitkeep files
+!**/.gitkeep
